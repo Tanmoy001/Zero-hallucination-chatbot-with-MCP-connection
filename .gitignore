@@ -1,0 +1,27 @@
+# Secrets & Credentials (CRITICAL)
+.env
+credentials.json
+token.json
+
+# Logs
+*.log
+mcp_server.log
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Local Databases / Vector Stores (if generated locally)
+*.db
+*.sqlite3
+
+# IDE & OS
+.vscode/
+.DS_Store
+Thumbs.db
